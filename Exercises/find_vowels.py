@@ -10,3 +10,13 @@ def find_vowels(word):
     """
 
     # your code here
+def find_vowels(word):
+    # word= raw_input('enter a word:')
+    list = ['a','i','e','o','u']
+    for i in word:
+        if i not in list:
+            print False
+        else:
+            print True
+
+find_vowels(word='sameer')
