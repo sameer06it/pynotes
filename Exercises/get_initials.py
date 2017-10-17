@@ -14,3 +14,17 @@ def get_initials(name):
     """
 
     # your code here
+def get_initials():
+    FirstName = list(raw_input('Enter your first name:'))
+    MiddleName = raw_input('Enter your middle name:')
+    Surname = list(raw_input('Enter your middle name:'))
+
+    if MiddleName == 'na':
+        print FirstName[0],Surname[0]
+    else:
+        list(MiddleName)
+        print FirstName[0],MiddleName[0],Surname[0]
+
+get_initials()
+
+
